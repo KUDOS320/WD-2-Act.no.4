@@ -1,5 +1,5 @@
 <?php
-require_once "/book.php";
+require_once "book.php";
 $bookObj = new Book();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -50,4 +50,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <a href="view-book.php">📚 View Book List</a>
 </body>
 </html>
+
 
