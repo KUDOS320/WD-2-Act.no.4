@@ -1,5 +1,5 @@
 <?php
-require_once "../classes/book.php";
+require_once "book.php";
 $bookObj = new Book();
 $books = $bookObj->viewBook();
 ?>
@@ -43,3 +43,4 @@ $books = $bookObj->viewBook();
     </button>
 </body>
 </html>
+
